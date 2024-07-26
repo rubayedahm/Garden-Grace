@@ -9,15 +9,20 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+section {
+    padding: 5rem 0;
+}
+
 .container {
     width: 80%;
     margin: auto;
+    position: relative;
 }
 
 /* Banner */
 .banner {
-    background-color: #fab1a0;
-    height: 70vh;
+    background-color: #e5547330;
+    height: 60vh;
     padding-top: 5rem;
 }
 
@@ -25,10 +30,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
-.banner .container h1 {
+.item {
+    width: 50%;
+}
+
+.item h1 {
     font-size: 4rem;
 }
 
@@ -39,7 +47,7 @@ body {
 }
 
 .btn {
-    background-color: #e17055;
+    background-color: #E55473;
     color: white;
     padding: 1rem 2rem;
     border: none;
@@ -47,6 +55,111 @@ body {
 }
 
 .banner_img {
+    width: 40%;
+    /* height: 100%; */
+    /* margin-top: 5rem; */
+    position: absolute;
+    right: 0;
+    top: -.7rem;
+}
+
+/* Featured Area */
+.main_title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.main_title h3 {
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+
+.main_title p {
+    color: grey;
+}
+
+.featured_items {
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.featured_item {
+    margin: 0 1rem;
+}
+
+.featured_img {
+    height: 100%;
+    width: 70%;
+}
+
+.featured_items a {
+    margin-top: 2rem;
+}
+
+/* Small Banner */
+.sm_banner_items {
+    width: 80%;
+    background: #80808029;
+    padding: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sm_banner_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sm_banner_item p {
+    margin-top: 1rem;
+    font-size: .9rem;
+}
+
+/* sales */
+.sales_items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #e5547326;
+    padding: 4rem;
+}
+
+.sales_item {
+    text-align: center;
+    width: 50%;
+    
+}
+
+.sales_item h3 {
+    font-size: 2rem;
+}
+
+.sales_item p {
+    color: grey;
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+}
+
+.sales_img {
+    height: 100%;
+    width: 40%;
+}
+
+/* Portfolio */
+
+.portfolio_items {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.portfolio_item img {
     width: 100%;
     height: 100%;
+    border-radius: 8px;
 }
