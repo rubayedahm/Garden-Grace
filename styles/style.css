@@ -201,3 +201,24 @@ section {
     outline: none;
     border-radius: 2px;
 }
+
+/* Footer */
+footer {
+    background: black;
+    color: white;
+    padding: 8rem 0;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 2rem;
+}
+
+footer h3 span {
+    color: #E55473;
+}
+
+footer p {
+    margin: 1rem 0;
+    font-size: .9rem;
+}
